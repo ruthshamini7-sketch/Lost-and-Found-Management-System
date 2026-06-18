@@ -57,10 +57,10 @@ Database Storage
 JDBC
 Database Connectivity
 NetBeans IDE
-
 Development Environment
 
 Functional Requirements
+
 User Registration
 Users can create an account by entering:
 Username
@@ -68,7 +68,9 @@ Email
 Password
 User Login
 Registered users can login using their username and password.
+
 Report Lost Item
+
 Users can report lost items by entering:
 Item Name
 Description
@@ -77,23 +79,32 @@ Date
 Image
 
 Report Found Item
+
 Users can add found item details:
 Item Name
 Description
 Found Location
 Date
 Image
+
 Search Item
+
 Users can search for lost or found items using item details.
 View Item Details
 Displays complete information about reported items.
+
 Update Item
+
 Users can update item information.
+
 Delete Item
+
 Users can remove unwanted records.
 Logout
 Users can securely exit their account.
+
 Non-Functional Requirements
+
 Easy to use
 Fast execution
 Secure login system
