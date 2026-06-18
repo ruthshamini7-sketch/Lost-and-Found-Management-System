@@ -1,13 +1,21 @@
 LOST AND FOUND MANAGEMENT SYSTEM
+
 Project Title
+
 Lost and Found Management System using Java
+
 Abstract
+
 The Lost and Found Management System is a Java-based application designed to help users report, search, and manage lost and found items efficiently. The system allows users to register, login, report lost items, report found items, search for items, and manage item details. It reduces manual searching and improves the process of recovering lost belongings.
 The project is developed using Java with Object-Oriented Programming concepts and provides an organized way to maintain lost and found records.
+
 Introduction
+
 Losing personal belongings is a common problem in schools, colleges, offices, and public places. Traditional lost and found systems depend on manual records, which makes searching and tracking items difficult.
 The Lost and Found Management System automates this process by allowing users to store item information digitally. Users can report lost items, upload item details, and search for matching found items.
+
 Problem Statement
+
 Manual lost and found management has several problems:
 Difficult to maintain records
 Time-consuming searching process
@@ -15,14 +23,18 @@ Chances of losing important information
 No proper tracking of reported items
 Difficult communication between finder and owner
 To solve these problems, an automated Lost and Found Management System is developed.
+
 Objectives
+
 To automate lost and found item management.
 To maintain item records digitally.
 To help users report lost and found items.
 To make searching items easier.
 To reduce manual paperwork.
 To improve the chances of recovering lost items.
+
 Scope of the Project
+
 The system can be used in:
 Colleges
 Schools
@@ -30,9 +42,10 @@ Offices
 Organizations
 Public places
 The project can be extended with database integration, AI-based image matching, and mobile application support.
+
 Technologies Used
-Technology
-Purpose
+
+Technology Purpose
 Java
 Programming Language
 Java Swing
@@ -44,7 +57,9 @@ Database Storage
 JDBC
 Database Connectivity
 NetBeans IDE
+
 Development Environment
+
 Functional Requirements
 User Registration
 Users can create an account by entering:
@@ -60,6 +75,7 @@ Description
 Lost Location
 Date
 Image
+
 Report Found Item
 Users can add found item details:
 Item Name
@@ -96,7 +112,9 @@ Store user and item records
 Perform CRUD operations
 Search matching items
 Manage lost and found information
-Output
+ 
+ Output
+ 
 Lost item reports
 Found item reports
 Search results
@@ -121,7 +139,9 @@ String location
 String date
 String status
 String imagePath
+
 Methods:
+
 Add Item()
 Update Item()
 Delete Item()
@@ -134,41 +154,41 @@ Registration Module
 Lost Item Module
 Found Item Module
 Search Module
+
 Algorithm
-Step 1
-Start the application.
-Step 2
-Display login and registration options.
-Step 3
-User enters login details.
-Step 4
-Verify user information.
-Step 5
-Display dashboard.
-Step 6
-Perform selected operation:
+
+Step 1 Start the application.
+Step 2 Display login and registration options.
+Step 3 User enters login details.
+Step 4 Verify user information.
+Step 5 Display dashboard.
+Step 6 Perform selected operation:
 Report Lost Item
 Report Found Item
 Search Item
 Update Item
 Delete Item
-Step 7
-Display result.
-Step 8
-Logout and terminate.
+Step 7Display result.
+Step 8Logout and terminate.
+
 Advantages
+
 Reduces manual work
 Faster searching
 Digital record management
 Easy tracking of items
 Improves recovery process
 User-friendly system
+
 Limitations
+
 Requires user registration
 Depends on database availability
 No real-time notification system
 Limited security features
+
 Future Enhancements
+
 AI image matching using CNN
 Mobile application
 QR code based item verification
@@ -178,7 +198,9 @@ Admin dashboard
 Location tracking
 Automatic item matching
 Report generation
+
 Sample Execution
+
 ===== LOST AND FOUND MANAGEMENT SYSTEM =====
 
 1. Register
@@ -212,5 +234,7 @@ Expected Output: Item Found
 Test Case 5
 Input: Delete Item Record
 Expected Output: Item Deleted Successfully
+
 Conclusion
+
 The Lost and Found Management System is a Java-based application that provides an efficient solution for managing lost and found items. The project demonstrates Java programming concepts, Object-Oriented Programming, GUI development, database connectivity, and CRUD operations. It helps users easily report and recover lost belongings and can be further enhanced into a complete smart lost and found platform.
